@@ -1,6 +1,7 @@
+
 from flask import Flask, render_template,request,redirect,url_for,flash,session,g
-from dbCode import loginVerify,addUser,studentPopulateClasses,ownerPopulateClasses,retrieveClassData,addClass,joinClassroom,allUsers,deleteUserDB,findClass
-from examDB import createTestDB,createAssignmentDB
+#from dbCode import loginVerify,addUser,studentPopulateClasses,ownerPopulateClasses,retrieveClassData,addClass,joinClassroom,allUsers,deleteUserDB,findClass
+#from examDB import createTestDB,createAssignmentDB
 
 app = Flask(__name__)
 app.secret_key = 'somesecretkeythatonlyishouldknow'
